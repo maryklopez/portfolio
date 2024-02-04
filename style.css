@@ -226,13 +226,14 @@ h1{color:black;}
 
 .avatar{
   margin-left: 10%;
-  margin:5%;
+  margin:7%;
   width: 5%;
   float:left;
  // vertical-align: middle; want
 }
 
 .stats {
+  color: black;	
   border-radius:10px 10px 10px 10px;
   margin:5%;
   float:right;
