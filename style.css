@@ -225,7 +225,7 @@ h1{color:black;}
 }
 
 .avatar{
-  margin:10%;
+  margin:5%;
   width: 5%;
   float:left;
  // vertical-align: middle; want
@@ -233,7 +233,7 @@ h1{color:black;}
 
 .stats {
   border-radius:10px 10px 10px 10px;
-  margin:10%;
+  margin:5%;
   float:right;
   width: 50%;
   height: 550px;
