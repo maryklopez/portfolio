@@ -212,7 +212,7 @@ h1{color:black;}
 .void{
   position: static;
   z-index: 1;
- margin-top: -4%;
+ //margin-top: ;
   background:black;
   height:10%;
 }
