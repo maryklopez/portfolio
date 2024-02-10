@@ -160,6 +160,8 @@ body {
 }
 
 
+/* my shit starts here */
+
 a {
   text-decoration: none;
   color:black;
@@ -226,8 +228,8 @@ h1{color:black;}
 
 .avatar{
 position: relative;
-top: 20%;
-left: 30%;
+top: 35%;
+left: 15%;
 //  margin-left: 10%;
 //  margin:0%;
   width: 5%;
@@ -241,7 +243,7 @@ left: 30%;
   margin:5%;
   float:right;
   width: 50%;
-  height: 550px;
+  height: 600px;
   box-shadow:
   0 0 0 7px black,
   0 0 0 10px white;
