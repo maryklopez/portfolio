@@ -225,8 +225,11 @@ h1{color:black;}
 }
 
 .avatar{
-  margin-left: 10%;
-  margin:0%;
+position: relative:
+	top: 20%;
+	left: 30%;
+//  margin-left: 10%;
+//  margin:0%;
   width: 5%;
   float:left;
  // vertical-align: middle; want
