@@ -281,11 +281,13 @@ table {
 }
 
 @media(maxx width:600px){
-	.avatar{		
+	.avatar{
+	position: static;
 	margin:7%;
 	width: 5%;
 	}
 	.stats {
+	position: static;
   	color: black;	
  	border-radius:10px 10px 10px 10px;
   	margin:8%;	
