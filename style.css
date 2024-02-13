@@ -186,7 +186,8 @@ a:hover{color: black;}
 
 .resume{ 
   left:20%;
-  background: #FFABB7;}
+  background: #FFABB7;
+  box-shadow: inset 0 8px 10px -6px #000000;}
 
 .art{ 
   left:40%;
@@ -279,3 +280,25 @@ figure {
 table {
   width: 100%;
 }
+
+@media(maxx width:600px){
+	.avatar{	
+		
+		margin:7%;
+		width: 5%;
+	}
+	.stats {
+  	color: black;	
+ 		border-radius:10px 10px 10px 10px;
+  	margin:8%;	
+  	width: 50%;
+  	height: 600px;
+ 		box-shadow:
+ 		0 0 0 7px black,
+  	0 0 0 10px white;
+  	border: 10px solid black;  
+  	background-color:white;
+}
+	
+}
+
