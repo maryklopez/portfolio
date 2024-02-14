@@ -281,7 +281,8 @@ table {
 
 @media(maxx width:600px){
 	.avatar{
-	position: static;
+	position: relative;
+	top: 100%;
 	margin:7%;
 	width: 5%;
 	}
