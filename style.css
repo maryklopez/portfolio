@@ -279,7 +279,7 @@ table {
   width: 100%;
 }
 
-@media(maxx width:600px){
+@media(max-width:600px){
 	.avatar{
 	position: relative;
 	margin:7%;
