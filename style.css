@@ -283,12 +283,13 @@ table {
 @media(max-width:600px){
 	.avatar{
 	position: relative;
-	margin:10%;
+	margin:15%;
 	width: 5%;
 	}
 	.stats {
 	position: relative;
-	top: 700px;
+	float: middle;
+	top: 800px;
 	left: 10px;
 	overflow-y:scroll;
   	}
