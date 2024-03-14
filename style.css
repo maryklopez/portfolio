@@ -8,8 +8,8 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-// font-family: 'Roboto Mono', monospace;
-//  font-size: 13.5px;
+/* font-family: 'Roboto Mono', monospace;
+  font-size: 13.5px; */
 }
 
 
@@ -227,7 +227,7 @@ h1{color:black;}
 }
 
 .avatar{
-//position: relative;
+/*position: relative; */
 float:left;
 margin:7%;
 width: 5%;
@@ -255,7 +255,7 @@ width: 5%;
  width: 100%;
  height: 30px;
  background-color: #000000; 
- //border:5px black solid; 
+  /* border:5px black solid; */
 }
 
 .up{
@@ -263,7 +263,7 @@ width: 5%;
   height: 20px; 
   background-color: pink; 
   float:right;
- // border:5px black solid;
+  /* border:5px black solid; */
 }
 
 img.a{
@@ -279,18 +279,17 @@ table {
   width: 100%;
 }
 
+
 @media(max-width:600px){
 	.avatar{
 	position: relative;
-	margin:7%;
+	margin:10%;
 	width: 5%;
 	}
 	.stats {
 	position: relative;
-	top: 600px;
+	top: 700px;
+	left: 10px;
 	overflow-y:scroll;
-  		 	
+  	}
 }
-	
-}
-
