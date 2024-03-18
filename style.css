@@ -226,18 +226,23 @@ h1{color:black;}
 }
 
 .avatar{
-/*position: relative; */
-float:left;
+position: relative;
+/*float:left;*/
+top: 40%;
+left: 15%;
 margin:7%;
 width: 5%;
 
 }
 
 .stats {
+  position: relative;	
+  top:45%;
+  left:55%;
   color: black;	
   border-radius:10px 10px 10px 10px;
-  margin:8%;
-  float:right;
+  /* margin:8%;
+  float:right; */
   width: 50%;
   height: 600px;
   box-shadow:
