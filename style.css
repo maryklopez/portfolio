@@ -227,7 +227,7 @@ h1{color:black;}
 
 .avatar{
 position: relative;
-/*float:left;*/
+float:left;
 top: 20%;
 left: 5%;
 margin:7%;
@@ -241,8 +241,8 @@ width: 5%;
   left:40%;
   color: black;	
   border-radius:10px 10px 10px 10px;
-  /* margin:8%;
-  float:right; */
+  /* margin:8%; */
+  float:right; 
   width: 50%;
   height: 600px;
   box-shadow:
