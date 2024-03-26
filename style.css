@@ -244,7 +244,7 @@ align-items: center;*/
   position: relative;	
   top:35%;
   left:30%;
-  color: black;	
+  color: pink;	
   border-radius:10px 10px 10px 10px;
   margin:8%; 
   float:right; 
@@ -279,7 +279,7 @@ align-items: center;*/
 .box{
 	color: black;	
 	border-radius:10px 10px 10px 10px;
-	box-shadow:	0 0 0 10px pink; 
+	border:#000000 10px solid; 
 	background-color:white;
 }
 
