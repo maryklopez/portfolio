@@ -243,7 +243,7 @@ align-items: center;*/
 .stats {
   position: relative;	
   top:35%;
-  left:0%;
+  left:30%;
   color: black;	
   border-radius:10px 10px 10px 10px;
   margin:8%; 
@@ -281,8 +281,7 @@ align-items: center;*/
 	border-radius:10px 10px 10px 10px;
 	box-shadow:
 	0 0 0 7px black,
-	0 0 0 10px white;
-	border: 10px solid black;  
+	0 0 0 10px white; 
 	background-color:white;
 }
 
