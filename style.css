@@ -279,9 +279,7 @@ align-items: center;*/
 .box{
 	color: black;	
 	border-radius:10px 10px 10px 10px;
-	box-shadow:
-	0 0 0 7px black,
-	0 0 0 10px white; 
+	box-shadow:	0 0 0 10px pink; 
 	background-color:white;
 }
 
