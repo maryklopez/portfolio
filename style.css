@@ -279,7 +279,7 @@ align-items: center;*/
 .box{
 	color: black;	
 	border-radius:10px 10px 10px 10px;
-	border:#000000 10px solid; 
+	border:#000000 5px solid; 
 	background-color:white;
 }
 
