@@ -244,17 +244,17 @@ align-items: center;*/
   position: relative;	
   top:35%;
   left:30%;
-  color: pink;	
+  color: black;	
   border-radius:10px 10px 10px 10px;
   margin:8%; 
   float:right; 
   width: 50%;
   height: 600px;
-  box-shadow:
+ /* box-shadow:
   0 0 0 7px black,
-  0 0 0 10px white;
-  border: 10px solid black;  
-  background-color:white;
+  0 0 0 10px white;*/
+  border: 5px solid black;  
+  background-color:pink;
 }
 
 .pop {
@@ -263,7 +263,7 @@ align-items: center;*/
  vertical-align: middle;
  width: 100%;
  height: 30px;
- background-color: #000000; 
+ background-color: pink; 
   /* border:5px black solid; */
 }
 
