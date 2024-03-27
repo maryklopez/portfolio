@@ -265,14 +265,15 @@ align-items: center;*/
  height: 30px;
  background-color: pink; 
   /* border:5px black solid; */
-}
+
 
 
 .up{
   width: 20px; 
   height: 20px; 
-  background-color: pink; 
+  background-color:black; 
   float:right;
+  border-radius: 50%;
   /* border:5px black solid; */
 }
 
