@@ -209,7 +209,8 @@ a:hover{color: black;}
   z-index: 1;
   color:black;
   display: flex;
-  
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 h2{color:black;}
