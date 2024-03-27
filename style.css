@@ -212,6 +212,7 @@ a:hover{color: black;}
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  width:100%;
 }
 
 h2{color:black;}
