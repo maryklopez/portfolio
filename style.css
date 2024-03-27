@@ -207,7 +207,10 @@ a:hover{color: black;}
   position: absolute;	
   top: 11%;
   z-index: 1;
-  color:black}
+  color:black;
+  display: flex;
+  flex-flow: row wrap;
+}
 
 h2{color:black;}
 h1{color:black;}
@@ -228,6 +231,8 @@ h1{color:black;}
 }
 
 .avatar{
+margin:7%;
+/*
 position: relative;
 float:left;
 top: 20%;
@@ -235,19 +240,20 @@ left: 5%;
 margin:7%;
 width: 5%;
 /*
-display: flex;
+
 justify-content: flex-end;
 align-items: center;*/
 }
 
 .stats {
-  position: relative;	
+  /*position: relative;	
   top:35%;
   left:30%;
+  */
+
   color: black;	
   border-radius:10px 10px 10px 10px;
   margin:8%; 
-  float:right; 
   width: 50%;
   height: 600px;
  /* box-shadow:
@@ -282,6 +288,7 @@ align-items: center;*/
 	border-radius:10px 10px 10px 10px;
 	border:#000000 5px solid; 
 	background-color:white;
+	width: 48%;
 }
 
 img.a{
