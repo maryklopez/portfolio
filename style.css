@@ -258,7 +258,7 @@ align-items: center;*/
   border-radius:10px 10px 10px 10px;
   margin:8%; 
   width: 50%;
-  height: 600px;
+  height: auto;
  /* box-shadow:
   0 0 0 7px black,
   0 0 0 10px white;*/
@@ -275,6 +275,7 @@ align-items: center;*/
  height: 30px;
  background-color: pink; 
  border:none;
+ height: 30px;
 }
 
 
