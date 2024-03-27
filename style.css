@@ -210,7 +210,7 @@ a:hover{color: black;}
   color:black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width:100%;
 }
@@ -283,7 +283,7 @@ align-items: center;*/
   background-color:black; 
   float:right;
   border-radius: 50%;
-  margin: 2%;
+  margin: 5%;
   /* border:5px black solid; */
 }
 
