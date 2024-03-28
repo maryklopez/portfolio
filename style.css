@@ -316,20 +316,19 @@ table {
   width: 100%;
 }
 
-
+/*
 @media(max-width:600px){
-	.avatar{
-	position: relative;
-	/*margin:15%;*/
+	 .avatar{
+	margin:15%;
 	width: 5%;
 	}
 	.stats {
 	position: relative;
 	top: 10px;
 	margin: 3%;
-	/*left: 3% */
+	/*left: 3% 
 	height: 400px;
 	width: 90%;
 	overflow-y:scroll;
   	}
-}
+} */
