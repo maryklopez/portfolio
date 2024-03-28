@@ -316,13 +316,13 @@ table {
   width: 100%;
 }
 
-/*
+
 @media(max-width:600px){
 	 .avatar{
-	margin:15%;
-	width: 5%;
+	margin:0%;
+	
 	}
-	.stats {
+	/*.stats {
 	position: relative;
 	top: 10px;
 	margin: 3%;
@@ -330,5 +330,5 @@ table {
 	height: 400px;
 	width: 90%;
 	overflow-y:scroll;
-  	}
-} */
+  	}*/
+} 
