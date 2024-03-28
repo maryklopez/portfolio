@@ -204,8 +204,14 @@ a:hover{color: black;}
   height:11vh;}
 
 .main{
-  position: absolute;	
-  top: 11%;
+position: absolute;	
+top: 11%;
+z-index: 1;
+color:black;
+}
+
+
+.indx{
   z-index: 1;
   color:black;
   display: flex;
