@@ -318,15 +318,22 @@ table {
 
 
 @media(max-width:600px){
-	 .avatar{
-	margin:0%;
-	
+	.indx{
+		flex-direction: column;
+		align-items: center;
 	}
-	/*.stats {
+
+	.avatar{
+		margin:0%;}
+	.stats {
+		height: 400px;
+		width: 90%;
+		overflow-y:scroll;}
+	/*
 	position: relative;
 	top: 10px;
 	margin: 3%;
-	/*left: 3% 
+	left: 3% 
 	height: 400px;
 	width: 90%;
 	overflow-y:scroll;
