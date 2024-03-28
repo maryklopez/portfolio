@@ -256,8 +256,8 @@ align-items: center;*/
 
   color: black;	
   border-radius:10px 10px 10px 10px;
-  margin:8%; 
-  width: 50%;
+  margin:5%; 
+  width: 45%;
   height: auto;
  /* box-shadow:
   0 0 0 7px black,
@@ -285,7 +285,7 @@ align-items: center;*/
   background-color:black; 
   float:right;
   border-radius: 50%;
-  margin: 2%;
+  margin: 1%;
   /* border:5px black solid; */
 }
 
