@@ -205,12 +205,11 @@ a:hover{color: black;}
   height:11vh;}
 
 .main{
-position: absolute;	
-top: 11%;
-z-index: 1;
-color:black;
-}
-
+  position: absolute;	
+  top: 11%;
+  z-index: 1;
+  color:black;
+  }
 
 .indx{
   margin-top:-3%;
@@ -229,17 +228,17 @@ h1{color:black;}
 .void{
   position: static;
   z-index: 1;
-  margin-top: -2%;
+  margin-top: -5%;
   background:black;
   height:10%;
 }
 
-
+/*
 .frame {
   width: 90%;
   margin: 40px auto;
   text-align: center;
-}
+}*/
 
 .avatar{
 margin:7%;
@@ -248,7 +247,6 @@ position: relative;
 float:left;
 top: 20%;
 left: 5%;
-margin:7%;
 width: 5%;
 /*
 
