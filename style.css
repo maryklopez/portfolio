@@ -206,7 +206,7 @@ a:hover{color: black;}
 
 .main{
 position: absolute;	
-top: 5%;
+top: 10%;
 z-index: 1;
 color:black;
 }
