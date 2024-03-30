@@ -213,6 +213,7 @@ color:black;
 
 
 .indx{
+  margin-top:-5%;
   z-index: 1;
   color:black;
   display: flex;
