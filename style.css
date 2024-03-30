@@ -166,6 +166,7 @@ a {
   text-decoration: none;
   color:black;
 }
+
 a:visited {color: black;}
 a:hover{color: black;}
 
@@ -205,7 +206,7 @@ a:hover{color: black;}
 
 .main{
 position: absolute;	
-top: 11%;
+top: 5%;
 z-index: 1;
 color:black;
 }
@@ -282,6 +283,7 @@ align-items: center;*/
  background-color: pink; 
  border:none;
  height: 30px;
+ margin: 1%;
 }
 
 
