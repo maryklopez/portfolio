@@ -206,14 +206,14 @@ a:hover{color: black;}
 
 .main{
 position: absolute;	
-top: 10%;
+top: 11%;
 z-index: 1;
 color:black;
 }
 
 
 .indx{
-  margin-top:-5%;
+  margin-top:-3%;
   z-index: 1;
   color:black;
   display: flex;
@@ -294,7 +294,7 @@ align-items: center;*/
   background-color:black; 
   float:right;
   border-radius: 50%;
-  margin: 1%;
+
   /* border:5px black solid; */
 }
 
@@ -322,6 +322,7 @@ table {
 
 @media(max-width:600px){
 	.indx{
+		margin-top: 3%;
 		flex-direction: column;
 		align-items: center;
 	}
