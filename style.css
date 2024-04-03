@@ -280,7 +280,7 @@ align-items: center;*/
  width: 95%;
  background-color: pink; 
  border:none; 
- height: 30px;
+ height: 40px;
 }
 
 
@@ -315,13 +315,9 @@ table {
   width: 100%;
 }
 
-.progress {
-  margin-top: -2%;
-}
-
 object{
   width: 100%;
-  height: 100%;
+  height: 300%;
 }
 
 @media(max-width:600px){
