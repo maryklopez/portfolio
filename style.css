@@ -228,7 +228,7 @@ h1{color:black;}
 .void{
   position: static;
   z-index: 1;
-  margin-top: -5%;
+  margin-top: -3%;
   background:black;
   height:10%;
 }
