@@ -281,6 +281,9 @@ align-items: center;*/
  background-color: pink; 
  border:none; 
  height: 45px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
 
 
@@ -288,7 +291,7 @@ align-items: center;*/
   width: 20px; 
   height: 20px; 
   background-color:black; 
-  float:right;
+   /*float:right;*/
   border-radius: 50%;
 
   /* border:5px black solid; */
