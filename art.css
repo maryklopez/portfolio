@@ -6,12 +6,11 @@
     box-sizing: border-box;
 }
 
-body {
+.main {
     /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: sans-serif;
    /* background-color: powderblue;*/
 }
