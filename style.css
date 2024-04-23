@@ -1,9 +1,13 @@
-
+@font-face {
+    font-family: pixel;
+    src: url(ARCADECLASSIC.TTF);
+}
 
 body {
+	font-family: pixel;
 	background: #87CEEB;
 	color: #87CEEB;
-	font: 100% helvetica;
+	/*font: 100% helvetica;*/
 	height: 100vh;
 	margin: 0;
 	padding: 0;
