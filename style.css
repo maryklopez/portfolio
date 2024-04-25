@@ -336,6 +336,13 @@ table {
 		height: 400px;
 		width: 90%;
 		overflow-y:scroll;}
+
+	.tab{
+		
+		font-size: 90%;
+		border-radius:20px 20px 0 0;
+		
+	}
 	/*
 	position: relative;
 	top: 10px;
