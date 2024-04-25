@@ -1,7 +1,13 @@
 @font-face {
     font-family: pixel;
-    src: url(ARCADECLASSIC.TTF);
+    src: url(fonts/ARCADECLASSIC.TTF);
 }
+
+@font-face {
+    font-family:type;
+    src: url(fonts/Kingthings_Trypewriter_2.ttf);
+}
+
 
 body {
 	font-family: pixel;
