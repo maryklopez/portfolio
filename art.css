@@ -109,3 +109,14 @@ i {
 #p3 {
     z-index: 1;
 }
+
+
+@media(max-width:600px){
+     
+    .book {
+        position: relative;
+        width: 250px;
+        height:500px;
+
+
+}
