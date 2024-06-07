@@ -80,7 +80,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 60px;
+    margin: 100px;
     transition: transform 0.5s;
 }
 
