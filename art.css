@@ -19,8 +19,8 @@
 
 .book {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 500px;
+    height: 650px;
     transition: transform 0.5s;
 }
 
