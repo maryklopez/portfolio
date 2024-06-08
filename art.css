@@ -115,8 +115,15 @@ i {
      
     .book {
         position: relative;
-        width: 250px;
+        width: 350px;
         height:500px;
     }
+
+    button {
+        margin: 50px;
+    }
+
+
+
 
 }
