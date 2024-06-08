@@ -19,7 +19,7 @@
 
 .book {
     position: relative;
-    width: 250px;
+    width: 350px;
     height: 500px;
     transition: transform 0.5s;
 }
@@ -80,7 +80,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 200px;
+    margin: 10px;
     transition: transform 0.5s;
 }
 
