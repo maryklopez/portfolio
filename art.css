@@ -110,15 +110,15 @@ i {
     z-index: 1;
 }
 
-/*
+
 @media(max-width:600px){
      
     .book {
         position: relative;
-        width: 350px;
-        height:500px;
-    }
-
+        width:150px;
+        height:300px;
+    }}
+/*
     button {
         margin: 175px;
     }
