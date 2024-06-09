@@ -11,6 +11,19 @@ const paper3 = document.querySelector("#p3");
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
 
+
+/*
+const prev = document.querySelector("#front");
+const next = document.querySelector("#back");
+
+
+prev.addEventListener("click", goPrevPage);
+next.addEventListener("click", goNextPage);
+
+*/
+
+
+
 // Business Logic
 let currentLocation = 1;
 let numOfPapers = 3;
@@ -18,9 +31,10 @@ let maxLocation = numOfPapers + 1;
 
 function openBook() {
     book.style.transform = "translateX(50%)";
-    prevBtn.style.transform = "translateX(-180px)";
+    prevBtn.style.transform = "translateX(-100px)";
     nextBtn.style.transform = "translateX(180px)";
 }
+
 
 function closeBook(isAtBeginning) {
     if(isAtBeginning) {
