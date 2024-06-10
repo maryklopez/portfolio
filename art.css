@@ -10,7 +10,6 @@
     /*height: 100vh;*/
     
     display: flex;
-    flex-direction: ;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -21,8 +20,8 @@
 
 .book {
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 500px;
+    height: 1000px;
     transition: transform 0.5s;
 }
 
@@ -96,7 +95,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 10px;
+    margin: 50px;
     transition: transform 0.5s;
 }
 
@@ -132,12 +131,12 @@ i {
      
     .book {
         position: relative;
-        width:100px;
-        height:200px;
+        width:350px;
+        height:500px;
     }
 
     button {
-        margin: 0px; 
+        margin: 10px; 
     }
 
 
