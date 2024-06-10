@@ -130,13 +130,12 @@ i {
 
      
     .book {
-        position: relative;
         width:175px;
         height:300px;
     }
 
     button {
-        margin: 10px; 
+        margin: 30px; 
     }
 
 
