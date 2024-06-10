@@ -127,6 +127,10 @@ i {
 
 
 @media(max-width:600px){
+
+    .main {
+     flex-direction: column;
+    }
      
     .book {
         position: relative;
@@ -139,10 +143,10 @@ i {
     }
 
 
-    .algn{
+   /* .algn{
         left: 20%;
         width:80%;
-    }
+    }*/
 
 
 
