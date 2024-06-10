@@ -21,7 +21,7 @@
 .book {
     position: relative;
     width: 500px;
-    height: 1000px;
+    height: 750px;
     transition: transform 0.5s;
 }
 
@@ -131,8 +131,8 @@ i {
      
     .book {
         position: relative;
-        width:350px;
-        height:500px;
+        width:175px;
+        height:300px;
     }
 
     button {
