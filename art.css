@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    align-content: space-around;
     font-family: sans-serif;
    /* background-color: powderblue;*/
 }
