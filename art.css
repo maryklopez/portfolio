@@ -52,13 +52,13 @@ p {color: black;}
 }
 
 .front {
-    z-index: 0;
+    z-index: 1;
     backface-visibility: hidden;
     border-left: 3px solid black;
 }
 
 .back {
-    z-index: 1;
+    z-index: 0;
 }
 
 .front-content,
