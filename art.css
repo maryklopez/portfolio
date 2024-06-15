@@ -75,7 +75,7 @@
 /* Paper flip effect */
 .flipped .front,
 .flipped .back {
-    transform: rotateY(-180deg);
+    transform: rotateY(-100deg);
 }
 
 
