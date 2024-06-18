@@ -58,7 +58,7 @@ p {color: black;}
 }
 
 .back {
-    z-index: 0;
+    z-index: -1;
 }
 
 .front-content,
