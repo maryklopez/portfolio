@@ -54,7 +54,7 @@ p {color: black;}
 .front {
     z-index: 1;
     backface-visibility: hidden;
-    border-left: 3px solid black;
+   /* border-left: 3px solid black; */
 }
 
 .back {
