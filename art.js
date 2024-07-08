@@ -36,7 +36,7 @@ next.addEventListener("click", goNextPage);
 
 // Business Logic
 let currentLocation = 1;
-let numOfPapers = 6;
+let numOfPapers = 10;
 let maxLocation = numOfPapers + 1;
 
 function openBook() {
