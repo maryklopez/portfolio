@@ -104,10 +104,10 @@ function goNextPage() {
                 paper9.classList.add("flipped");
                 paper9.style.zIndex = 9;
                 break;  
-
+                
             case 10:
-                paper6.classList.add("flipped");
-                paper6.style.zIndex = 10;
+                paper10.classList.add("flipped");
+                paper10.style.zIndex = 10;
                 closeBook(false);
                 break;
             default:
@@ -139,6 +139,7 @@ function goPrevPage() {
                 paper4.classList.remove("flipped");
                 paper4.style.zIndex = 7;
                 break;
+
 
             case 6:
                 paper5.classList.remove("flipped");
