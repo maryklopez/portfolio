@@ -140,7 +140,6 @@ function goPrevPage() {
                 paper4.style.zIndex = 7;
                 break;
 
-
             case 6:
                 paper5.classList.remove("flipped");
                 paper5.style.zIndex = 6;
