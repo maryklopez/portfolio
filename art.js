@@ -21,6 +21,23 @@ const paper10 = document.querySelector("#p10");
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
 
+const pageArea = document.querySelector(".main");
+if (pageArea) {
+    pageArea.addEventListener("click", function(event) {
+        if (event.target.closest("button, a")) {
+            return;
+        }
+
+        const rect = pageArea.getBoundingClientRect();
+        const clickX = event.clientX - rect.left;
+        if (clickX < rect.width / 2) {
+            goPrevPage();
+        } else {
+            goNextPage();
+        }
+    });
+}
+
 
 /*
 const prev = document.querySelector("#front");
