@@ -11,7 +11,7 @@
 
 body {
 	font-family: pixel;
-	background: #87CEEB;
+	background: #000;
 	color: #87CEEB;
 	/*font: 100% helvetica;*/
 	height: 100vh;
@@ -25,6 +25,7 @@ body {
 
 
 #background-wrap {
+	background: #87CEEB;
    bottom: 0; 
 	left: 0;
 	padding-top: 70px;
@@ -241,6 +242,16 @@ h1{color:black;}
   margin-top: -3%;
   background:black;
   height:10%;
+}
+
+/* Fill the tab strip without moving the spacer or the cloud background. */
+.void::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 11vh;
+  background: #000;
+  z-index: -1;
 }
 
 /*
