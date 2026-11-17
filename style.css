@@ -371,28 +371,53 @@ table {
   	}*/
 }
 
-/* The home page uses a real header row instead of positioning tabs against the viewport. */
+/* The home page keeps the shared black top strip and tab sizing. */
 .home-page {
+  --home-tab-height: clamp(4rem, 18vw, 5rem);
+  --home-header-height: max(
+    11vh,
+    calc(var(--home-tab-height) + env(safe-area-inset-top, 0px) + 0.5rem)
+  );
   height: auto;
   min-height: 100vh;
   min-height: 100svh;
-  background: #87CEEB;
+  background: #000;
 }
 
-.home-page .home-header,
-.home-page .home-tabs {
+/* Only the iPhone safe area stays black when the header scrolls away. */
+.home-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top, 0px);
+  background: #000;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.home-page .home-header {
+  position: relative;
+  z-index: 1;
+  height: var(--home-header-height);
   background: #000;
 }
 
 .home-page .home-tabs {
-  --tab-height: clamp(4rem, 18vw, 5rem);
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: stretch;
   box-sizing: border-box;
   width: 100%;
-  height: calc(var(--tab-height) + env(safe-area-inset-top, 0px) + 0.5rem);
+  height: 100%;
   padding-top: calc(env(safe-area-inset-top, 0px) + 0.5rem);
+  background: #000;
+}
+
+.home-page #background-wrap {
+  z-index: 0;
+  padding-top: var(--home-header-height);
 }
 
 .home-page .home-tabs .tab {
@@ -405,11 +430,11 @@ table {
   box-sizing: border-box;
   padding: 0.35rem 1px 0;
   border-radius: 20px 20px 0 0;
-  font-size: clamp(0.625rem, 3.5vw, 1.2rem);
+  font-size: 1.5em;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
-  overflow: hidden;
+  transition: height 160ms ease, margin-top 160ms ease;
 }
 
 .home-page .home-tabs .tab:not(.index) {
@@ -417,20 +442,25 @@ table {
 }
 
 .home-page .home-tabs .tab:hover {
-  height: 100%;
+  height: calc(100% + 1vh);
+  margin-top: -1vh;
 }
 
 .home-page .home-tabs .home-title {
-  font-size: clamp(1rem, 5vw, 1.7rem);
+  font-size: inherit;
   font-weight: 700;
 }
 
-.home-page .home-tabs .tab.polaroids {
-  font-size: clamp(0.625rem, 3vw, 1rem);
-}
-
 .home-page .indx {
+  position: relative;
+  z-index: 1;
   width: 100%;
   margin: 0;
-  background: #87CEEB;
+  background: transparent;
+}
+
+@media (max-width: 600px) {
+  .home-page .home-tabs .tab {
+    font-size: 0.9em;
+  }
 }
