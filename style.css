@@ -369,4 +369,68 @@ table {
 	width: 90%;
 	overflow-y:scroll;
   	}*/
-} 
+}
+
+/* The home page uses a real header row instead of positioning tabs against the viewport. */
+.home-page {
+  height: auto;
+  min-height: 100vh;
+  min-height: 100svh;
+  background: #87CEEB;
+}
+
+.home-page .home-header,
+.home-page .home-tabs {
+  background: #000;
+}
+
+.home-page .home-tabs {
+  --tab-height: clamp(4rem, 18vw, 5rem);
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: stretch;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(var(--tab-height) + env(safe-area-inset-top, 0px) + 0.5rem);
+  padding-top: calc(env(safe-area-inset-top, 0px) + 0.5rem);
+}
+
+.home-page .home-tabs .tab {
+  position: static;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0.35rem 1px 0;
+  border-radius: 20px 20px 0 0;
+  font-size: clamp(0.625rem, 3.5vw, 1.2rem);
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home-page .home-tabs .tab:not(.index) {
+  box-shadow: inset 0 -8px 10px -6px #000;
+}
+
+.home-page .home-tabs .tab:hover {
+  height: 100%;
+}
+
+.home-page .home-tabs .home-title {
+  font-size: clamp(1rem, 5vw, 1.7rem);
+  font-weight: 700;
+}
+
+.home-page .home-tabs .tab.polaroids {
+  font-size: clamp(0.625rem, 3vw, 1rem);
+}
+
+.home-page .indx {
+  width: 100%;
+  margin: 0;
+  background: #87CEEB;
+}
